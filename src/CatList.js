@@ -8,7 +8,7 @@ class CatList extends React.Component {
   };
 
   render() {
-    return <div>{this.listCats}</div>;
+    return <div>{this.listCats()}</div>;
   }
 }
 
